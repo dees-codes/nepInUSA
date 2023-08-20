@@ -1,0 +1,3 @@
+# Line ending format should be LF (linux style) and not CRLF (windows style).
+# Using LF line endings is generally recommended for cross-platform compatibility and collaboration, especially if your project involves multiple developers working on different platforms.
+* text eol=lf
