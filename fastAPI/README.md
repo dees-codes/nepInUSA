@@ -1,4 +1,4 @@
-For local development:
+Spinning up Docker container for local development:
 
 1. Install docker desktop.
 

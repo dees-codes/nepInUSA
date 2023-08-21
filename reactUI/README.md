@@ -29,3 +29,17 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+### Spinning up Docker container for local development:
+
+1. Install docker desktop.
+
+2. Build docker image for fastAPI folder using the following command:
+   docker build -t reactui-app .
+
+3. After the image is built, run the docker container using following command:
+   docker run -p 3000:3000 reactui-app
+
+4. Access your fast API app's Swagger documentation at:
+   http://localhost:3000/
+

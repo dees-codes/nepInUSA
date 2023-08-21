@@ -3,7 +3,7 @@ import CustomStepper from '../customStepper/CustomStepper';
 import CheckboxList from '../checkboxList/CheckboxList';
 
 import { universityList, serviceList } from '../../Mocks/mocks';
-import StudentInfo from '../studentInfo/StudentInfo';
+import StudentInfo from '../StudentInfo/StudentInfo';
 import ServiceList from '../serviceList/ServiceList';
 import Summary from '../summary/Summary';
 import { HomePostLoginContextProvider } from './HomePostLoginContext';

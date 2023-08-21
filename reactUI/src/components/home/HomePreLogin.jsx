@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
 import Divider from '@mui/material/Divider';
-import Carousel from '../carousel/Carousel';
+import Carousel from '../Carousel/Carousel';
 import images from '../../images/images';
 import { items } from './CarouselData';
 import OutlinedTimeLine from './OutlinedTimeline';
