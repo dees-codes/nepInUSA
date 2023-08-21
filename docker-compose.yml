@@ -1,10 +1,19 @@
-version: '3.3'
+version: '3'
 
 services:
-  web:
-    build: ./project
-    command: uvicorn main:app --reload --workers 1 --host 0.0.0.0 --port 8004
-    volumes:
-      - ./project:/usr/src/app
+
+  fast_api:
+    build:
+      context: ./fastAPI
     ports:
-      - 8004:8004
+      - "8000:8000"
+    depends_on:
+      - react_ui
+
+  react_ui:
+    build:
+      context: ./reactUI
+    ports:
+      - "3000:3000"
+    depends_on:
+      - fast_api
